@@ -7,16 +7,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This repository is created to test the deployment of a React application using GitHub Pages (gh-pages). It demonstrates how to set up a React project for deployment, configure the gh-pages package, and host the build output on GitHub Pages for public access.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
