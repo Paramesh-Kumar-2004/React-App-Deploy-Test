@@ -5,16 +5,27 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  box-shadow: 1px 1px 14px 1px skyblue;
+  border-radius: 14px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  color: white;
+  text-decoration: none;
+}
+
+b {
+  color: skyblue;
+  cursor: pointer;
+}
+
+a:hover {
+  transition: all 1s ease-in-out;
+  color: blue;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,6 +43,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
